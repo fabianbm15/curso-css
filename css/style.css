@@ -1,8 +1,9 @@
-h2 {
-  color: red;
-  border: 1px solid black;
-}
+/* 
+  Aquí va un selector de tipo
+*/
 
 h1 {
-  color: blue;
+  color: crimson;
+  font-size: 60px;
+  text-align: center;
 }
