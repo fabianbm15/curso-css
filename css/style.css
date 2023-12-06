@@ -7,3 +7,38 @@ h1 {
   font-size: 60px;
   text-align: center;
 }
+
+/* Selectores */
+
+/* ---------- Selector de tipo ---------- */
+/* 
+h2 {
+  color: orange;
+  font-size: 30px;
+}
+
+p {
+  color: blue;
+  font-size: 20px;
+} 
+*/
+
+/* Combinado */
+/* 
+h2,
+p {
+  color: brown;
+  font-size: 30px;
+  border: 1px solid black;
+} 
+*/
+
+.titulo {
+  color: brown;
+  font-size: 30px;
+  border: 1px solid black;
+}
+
+.negrita {
+  font-weight: bold;
+}
