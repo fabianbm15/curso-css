@@ -1,0 +1,36 @@
+#title {
+  color: rebeccapurple;
+}
+
+.title {
+  color: blue;
+}
+
+h1 {
+  color: tomato;
+}
+
+body > .title {
+  color: blueviolet;
+}
+
+/* 
+body > #title {
+  color: yellow;
+} 
+*/
+
+/* 1 - Selectores de tipo, Pseudoelementos :: */
+/* 10 - Selector de clase, Pseudoclases :, [] */
+/* 100 - Selector de ID */
+
+/* Se recomienda trabajar solo con clases, para mantener la especifidad lo menor posible */
+
+/* Revocar especifidad */
+#title {
+  color: rebeccapurple;
+}
+
+.title {
+  color: blue !important;
+}
