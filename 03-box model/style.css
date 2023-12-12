@@ -22,4 +22,64 @@
 
   /* padding: top = right = bottom = left; */
   padding: 30px;
+
+  /* ---------- border ---------- */
+  border-color: purple;
+  border-width: 10px;
+  border-style: solid;
+
+  /* ----- border color ----- */
+  border-color: blue;
+  border-color: red;
+  border-color: rgba(0, 255, 255, 0.13);
+  border-color: #f8f8f8;
+  border-color: black;
+
+  /* Diferentes direcciones */
+  border-top-color: blue;
+  border-right-color: red;
+  border-bottom-color: pink;
+  border-left-color: yellow;
+
+  /* shorthand border-color: top right bottom left; */
+  border-color: blue;
+  border-color: blue red;
+  border-color: blue red pink;
+  border-color: blue red pink yellow;
+
+  /* ----- border width ----- */
+  border-width: thin;
+  border-width: medium;
+  border-width: thick;
+
+  /* Diferentes direcciones */
+  border-top-width: 30px;
+  border-right-width: 10px;
+  border-bottom-width: 20px;
+  border-left-width: 5px;
+
+  /* shorthand border-width: top right bottom left; */
+  border-width: 30px;
+  border-width: 30px 10px;
+  border-width: 30px 10px 20px;
+  border-width: 30px 10px 20px 5px;
+
+  /* ----- border style ----- */
+  border-style: dashed;
+  border-style: dotted;
+  border-style: double;
+  border-style: groove;
+  border-style: ridge;
+
+  /* Diferentes direcciones */
+  border-top-style: dotted;
+  border-right-style: dashed;
+  border-bottom-style: solid;
+  border-left-style: double;
+
+  /* shorthand border-style: top right bottom left; */
+  border-width: dotted;
+  border-width: dotted dashed;
+  border-width: dotted dashed solid;
+  border-width: dotted dashed solid double;
 }
