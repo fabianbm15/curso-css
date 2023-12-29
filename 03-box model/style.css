@@ -110,3 +110,55 @@
   margin: 0 auto;
   display: block;
 }
+
+/* Colapso de márgenes */
+/* 1. Los márgenes se cruzan, prevalece el mayor (no se suman) */
+.main {
+  background-color: steelblue;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer {
+  color: white;
+  background-color: slateblue;
+  margin-top: 50px;
+}
+
+/* 2. Un elemento hijo debe tener algo entre el elemento y su contenedor */
+/* de lo contrario, el margen se aplicará al elemento padre */
+/* 2.1 Problema */
+.main {
+  background-color: steelblue;
+  color: white;
+  margin-bottom: 30px;
+  /* margin-top: 40px; */ /* Es como si se aplicara al padre */
+}
+
+.main-title {
+  margin-top: 40px;
+}
+
+/* 2.2 Solución 1: padding */
+.main {
+  background-color: steelblue;
+  color: white;
+  margin-bottom: 30px;
+  padding: 0.1px;
+}
+
+.main-title {
+  margin-top: 40px;
+}
+
+/* 2.2 Solución 2: border */
+.main {
+  background-color: steelblue;
+  color: white;
+  margin-bottom: 30px;
+  border: 1px solid transparent;
+}
+
+.main-title {
+  margin-top: 40px;
+}
